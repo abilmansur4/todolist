@@ -19,11 +19,6 @@
       "id": 4,
       "name": "Книги",
       "colorId": 2
-    },
-    {
-      "id": 5,
-      "name": "Other",
-      "colorId": 1
     }
   ],
   "tasks": [
@@ -92,6 +87,24 @@
       "text": "222",
       "completed": true,
       "id": 12
+    },
+    {
+      "listId": 1,
+      "text": "prod",
+      "completed": false,
+      "id": 13
+    },
+    {
+      "listId": 1,
+      "text": "123",
+      "completed": false,
+      "id": 14
+    },
+    {
+      "listId": 1,
+      "text": "can",
+      "completed": false,
+      "id": 15
     }
   ],
   "colors": [

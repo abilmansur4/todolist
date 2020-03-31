@@ -13,15 +13,49 @@
         opacity: 0.2;
       }
     }
+
+    img {
+      opacity: 0;
+      cursor: pointer;
+      margin-left: 15px;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
   }
 
-  img {
-    opacity: 0;
-    cursor: pointer;
-    margin-left: 15px;
+  &__form {
+    margin-top: 20px;
 
-    &:hover {
-      opacity: 0.8;
+    &-block {
+      .button {
+        margin-right: 10px;
+        margin-top: 15px;
+      }
+    }
+
+    &-new {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      opacity: 0.4;
+      transition: opacity 0.15s ease-in-out;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      img {
+        width: 16px;
+        height: 16px;
+        margin-left: 4px;
+      }
+
+      span {
+        font-size: 16px;
+        margin-left: 19px;
+      }
     }
   }
 
@@ -43,7 +77,7 @@
       display: flex;
       align-items: center;
       margin-bottom: 15px;
-      
+
       input {
         border: 0;
         width: 100%;
@@ -65,7 +99,7 @@
       svg {
         opacity: 1;
         path {
-          stroke: #fff
+          stroke: #fff;
         }
       }
     }
@@ -98,6 +132,5 @@
         opacity: 0;
       }
     }
-
   }
 }
